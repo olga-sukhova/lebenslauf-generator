@@ -1,0 +1,32 @@
+Lebenslauf-Generator
+Der Lebenslauf-Generator ist eine Python-Anwendung, die es Benutzer*innen ermöglicht, benutzerdefinierte Lebensläufe zu erstellen und als PDF-Datei zu exportieren. Das Projekt bietet eine grafische Benutzeroberfläche (GUI), um Daten einzugeben, Vorlagen auszuwählen und ein Foto hochzuladen.
+
+Features
+Benutzerfreundliche GUI: Entwickelt mit PyQt5 für einfache Eingabe von Name, Berufserfahrung und Fähigkeiten.
+PDF-Generierung: Erstellt Lebensläufe in verschiedenen Vorlagen und fügt ein Foto hinzu.
+Vorschau-Funktion: Ermöglicht die Ansicht des Lebenslaufs vor der Erstellung des PDFs.
+Automatisierung: Unterstützt Anpassung und Layout für professionelle Ergebnisse.
+
+Verwendete Technologien
+Python: Programmiersprache für die Entwicklung.
+PyQt5: Für die Erstellung der Benutzeroberfläche.
+ReportLab: Für die PDF-Generierung.
+Platypus: Zum Handling von Textformatierungen innerhalb von PDFs.
+
+Installation
+
+Dependencies installieren:
+pip install pyqt5 reportlab
+
+Repository klonen:
+git clone https://github.com/dein-benutzername/lebenslauf-generator.git
+cd lebenslauf-generator
+
+Programm starten:
+python main.py
+
+Anwendung
+GUI starten: Geben Sie Ihren Namen, Ihre Berufserfahrung und Fähigkeiten ein.
+Foto hochladen: Laden Sie ein Foto hoch, um es in den Lebenslauf zu integrieren.
+Vorlage wählen: Wählen Sie aus drei verschiedenen Vorlagen.
+PDF erstellen: Erstellen und speichern Sie den Lebenslauf als PDF.
